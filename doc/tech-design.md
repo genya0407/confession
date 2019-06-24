@@ -1,9 +1,22 @@
 ## Technical design 
 
-For example, you can add here...
+### Overview
 
-* E-R diagram 
-* DDL schema / sample seed file 
-* Sequence diagram of key flow(s) 
-* Boxes-and-arrows diagram of key components 
+- Web application
+  - Frontend: Vue.js
+  - Backend: Go
 
+### Domain Language
+
+- Account
+  - Chat開始の対象となれる人間(StoryのKoji Sakashita)
+- Anonymous
+  - AccountとChatをする人間(Storyの質問者)
+- Chat
+  - AccountとAnonymousの間でやりとりされるMessageのSequence
+- Message
+  - 文章
+
+### ER図
+
+![](./erd.png)
