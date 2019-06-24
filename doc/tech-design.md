@@ -6,6 +6,7 @@
   - Frontend: Vue.js
   - Backend: Go
   - Database: PostgreSQL
+  - Communication method: WebSocket
 
 ### Domain Language
 
@@ -21,3 +22,26 @@
 ### ER図
 
 ![](./erd.png)
+
+### Backend Technologies
+
+- net/http
+- httprouter: https://github.com/julienschmidt/httprouter
+- authorization
+  - Authorization: Bearer <Token>
+    - https://tools.ietf.org/html/rfc6750
+    - https://qiita.com/uasi/items/cfb60588daa18c2ec6f5
+- query builder
+  - https://github.com/doug-martin/goqu
+- migration
+  - https://github.com/golang-migrate/migrate
+- websocket
+  - https://godoc.org/github.com/gorilla/websocket
+
+### Frontend Technologies
+
+- localStorage
+  - store authorization token
+  - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+- websocket
+  - https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
