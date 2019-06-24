@@ -40,7 +40,5 @@ Confession
 - 質問箱ではなくconfessionを使って質問をしてみよう
 
 ## Wireframe of key flows (主な流れのワイヤーフレーム）
-TODO
 
-* 手書きでもOK!
-* Or you can use a tool like [Figma](https://www.figma.com/), [Sketch](https://www.sketch.com/), etc
+![](./pages.png)
