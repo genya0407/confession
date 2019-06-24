@@ -5,6 +5,7 @@
 - Web application
   - Frontend: Vue.js
   - Backend: Go
+  - Database: PostgreSQL
 
 ### Domain Language
 
