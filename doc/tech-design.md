@@ -37,6 +37,8 @@
   - https://github.com/golang-migrate/migrate
 - websocket
   - https://godoc.org/github.com/gorilla/websocket
+- twitter login
+  - https://github.com/dghubble/gologin
 
 ### Frontend Technologies
 
