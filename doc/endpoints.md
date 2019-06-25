@@ -29,9 +29,10 @@
     - account: Account
 
 - GET `/account/:account_id/chats`
+  - only finished chats
   - no request parameters
   - response:
-    - chats: List<Chat>
+    - chat_abstracts: List<ChatAbstract>
 
 - GET `/account/:account_id/chat/:chat_id`
   - no request parameters
@@ -91,7 +92,8 @@
 #### JSON API
 
 - POST `/anonymous/account/:account_id/chats`
-  - no request parameters
+  - request
+    - beginning_text: string
   - response
     - chat_id: int
     - session_token: string
